@@ -1,0 +1,31 @@
+/* Java Site Color Scheme in Light Mode */
+:root {
+  --ifm-color-primary: #2e8555; /* Green */
+  --ifm-color-primary-dark: #27694d;
+  --ifm-color-primary-darker: #205d45;
+  --ifm-color-primary-darkest: #194f3d;
+  --ifm-color-primary-light: #36a265;
+  --ifm-color-primary-lighter: #3fb975;
+  --ifm-color-primary-lightest: #48d085;
+  --ifm-color-inputs: #fff;
+  --ifm-color-inputs-text: #1b1b1d;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --github-logo: url(/img/login-transparent-invert.png);
+  --ifm-color-red: firebrick;
+}
+
+/* Java Site Color Scheme in Dark Mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0; /* Light Green */
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-inputs: #1b1b1d;
+  --ifm-color-inputs-text: #fff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --github-logo: url(/img/login-transparent.png);
+  --ifm-color-red: red;
+}
